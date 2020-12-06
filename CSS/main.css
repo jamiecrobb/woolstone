@@ -188,6 +188,7 @@ footer .bottom {
         padding: 3%;
         border-radius: 2%;
         width: 75%;
+        height: fit-content;
         /* background-color: #f7f7f7; */
         box-shadow: 10px 10px 14px -4px rgba(0,0,0,0.57);
         /* box-shadow: none; */
