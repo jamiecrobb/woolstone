@@ -165,6 +165,7 @@ footer .bottom {
     
     h3 {
         overflow: hidden;
+        height: fit-content;
     }
 
     p {
