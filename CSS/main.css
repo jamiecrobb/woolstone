@@ -1,0 +1,210 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    margin-right: auto;
+    padding-left: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-right: 2%;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.banner {
+    background-image: url("../Assets/2.jpg");
+    display: block;
+    background-size: cover;
+    width: 100vw;
+    height: 45vh;
+    background-position: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h3 {
+    text-align: center;
+    height: 7vh;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.section {
+    width: 85%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 2%;
+    padding: 2%;
+    border-radius: 2%;
+    width: 25%;
+    max-width: 300px;
+    box-shadow: 10px 10px 14px -4px rgba(0,0,0,0.57);
+}
+
+.about {
+    margin-top: 3vh;
+}
+
+.productscontainer {
+    flex-wrap: wrap;
+}
+
+@media (hover: hover) {
+    .card:hover {
+        transform: scale(1.025, 1.025);
+        transition: transform 150ms ease-in-out;
+    }
+}
+
+.card img {
+    width: 100%;
+}
+
+.contactcont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    justify-items: center;
+}
+
+iframe {
+    width: 100%;
+    height: 50vh;
+}
+
+footer .bottom {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+
+@media (max-width: 488px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        margin: 0;
+        margin-top: 2vh;
+        margin-bottom: 0vh;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:nth-of-type(2) {
+        margin-bottom: 2vh;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    main {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+    
+    .banner {
+        background-image: url("../Assets/2.jpg");
+        display: block;
+        background-size: cover;
+        width: 100vw;
+        height: 40vh;
+        background-position: center;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    p {
+        font-size: 1.3em;
+    }
+    
+    .section {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card {
+        margin: 5%;
+        padding: 3%;
+        border-radius: 2%;
+        width: 75%;
+        /* background-color: #f7f7f7; */
+        box-shadow: 10px 10px 14px -4px rgba(0,0,0,0.57);
+        /* box-shadow: none; */
+    }
+    
+    .card img {
+        width: 100%;
+    }
+    
+    .contactcont {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-items: center;
+    }
+    
+    footer .bottom {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        text-align: center;
+        font-size: 0.8em;
+    }
+}
+
