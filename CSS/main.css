@@ -163,6 +163,10 @@ footer .bottom {
         font-size: 1.5em;
     }
     
+    h3 {
+        overflow: hidden;
+    }
+
     p {
         font-size: 1.3em;
     }
